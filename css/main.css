@@ -68,6 +68,7 @@ input[type='email'],
 input[type='password'] {
   width: 100%;
   padding: 20px 20px;
+  margin-bottom: 30px;
   font: 700 18px Poppins, sans-serif;
   color: hsl(249, 10%, 26%);
   letter-spacing: 1px;
