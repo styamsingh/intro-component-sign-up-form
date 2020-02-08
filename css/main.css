@@ -49,7 +49,7 @@ a {
 }
 
 .form {
-  padding: 50px;
+  padding: 50px 50px 30px 50px;
   margin-top: 30px;
   background: rgba(256, 256, 256, 1);
   border-radius: 15px;
@@ -99,7 +99,7 @@ input[type='password']:focus {
   cursor: pointer;
 }
 
-.btn:focus {
+.btn:active {
   outline: none;
   background: hsl(154, 59%, 45%);
 }
@@ -113,4 +113,56 @@ input[type='password']:focus {
 
 .t-c {
   color: hsl(0, 100%, 74%);
+}
+
+@media only screen and (max-device-width: 414px) {
+  .container {
+    width: 100%;
+  }
+
+  .left-panel {
+    float: none;
+    width: 90%;
+    margin: 100px auto 70px auto;
+  }
+
+  .right-panel {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .hero-heading {
+    font: 700 5vh Poppins, sans-serif;
+  }
+
+  .hero-paragraph {
+    font: 500 2.5vh Poppins, sans-serif;
+  }
+
+  .form {
+    padding: 20px 20px 10px 20px;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='password'] {
+    font: 700 16px Poppins, sans-serif;
+  }
+
+  input::placeholder {
+    font: 700 14px Poppins, sans-serif;
+  }
+
+  .btn {
+    font: 700 16px Poppins, sans-serif;
+  }
+
+  .t-c-declaration {
+    font: 600 12px Poppins, sans-serif;
+  }
 }
