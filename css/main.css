@@ -115,7 +115,64 @@ input[type='password']:focus {
   color: hsl(0, 100%, 74%);
 }
 
-@media only screen and (max-device-width: 414px) {
+@media only screen and (max-width: 1300px) {
+  .container {
+    width: 100%;
+  }
+
+  .left-panel {
+    float: left;
+    width: 40%;
+    margin: 250px 5% 0 5%;
+  }
+
+  .right-panel {
+    float: right;
+    width: 45%;
+    margin: 100px 5% 0 0;
+  }
+
+  .hero-heading {
+    font: 700 60px Poppins, sans-serif;
+    line-height: 1.2;
+  }
+
+  .hero-paragraph {
+    font: 500 18px Poppins, sans-serif;
+  }
+
+  .form {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .left-panel {
+    float: none;
+    width: 90%;
+    margin: 100px auto 70px auto;
+  }
+
+  .right-panel {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .form {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
   .container {
     width: 100%;
   }
@@ -141,11 +198,12 @@ input[type='password']:focus {
   }
 
   .hero-paragraph {
-    font: 500 2.5vh Poppins, sans-serif;
+    font: 500 2vh Poppins, sans-serif;
   }
 
   .form {
     padding: 20px 20px 10px 20px;
+    margin-bottom: 30px;
   }
 
   input[type='text'],
