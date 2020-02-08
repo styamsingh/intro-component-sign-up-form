@@ -13,7 +13,6 @@ a {
 }
 
 .left-panel {
-  display: inline-block;
   float: left;
   width: 40%;
   margin: 250px 0 0 100px;
